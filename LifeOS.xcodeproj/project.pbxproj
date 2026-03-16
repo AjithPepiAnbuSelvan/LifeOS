@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F8F9BF872F67FFD400831927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F9BF832F67FFD400831927 /* Assets.xcassets */; };
+		F8F9BF882F67FFD400831927 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BF842F67FFD400831927 /* ContentView.swift */; };
+		F8F9BF8A2F67FFD400831927 /* LifeOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BF862F67FFD400831927 /* LifeOSApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F8F9BF672F67F9CF00831927 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +33,12 @@
 		F8F9BF572F67F9CC00831927 /* LifeOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F9BF662F67F9CF00831927 /* LifeOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F9BF702F67F9CF00831927 /* LifeOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F9BF832F67FFD400831927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8F9BF842F67FFD400831927 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8F9BF862F67FFD400831927 /* LifeOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F8F9BF592F67F9CC00831927 /* LifeOS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LifeOS;
-			sourceTree = "<group>";
-		};
 		F8F9BF692F67F9CF00831927 /* LifeOSTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LifeOSTests;
@@ -75,7 +79,13 @@
 		F8F9BF4E2F67F9CC00831927 = {
 			isa = PBXGroup;
 			children = (
-				F8F9BF592F67F9CC00831927 /* LifeOS */,
+				F8F9BF862F67FFD400831927 /* LifeOSApp.swift */,
+				F8F9BF922F68009A00831927 /* Models */,
+				F8F9BF932F6800A600831927 /* ViewModels */,
+				F8F9BF942F6800AE00831927 /* Views */,
+				F8F9BF952F6800C400831927 /* Services */,
+				F8F9BF962F6800CC00831927 /* Persistence */,
+				F8F9BF972F6800D200831927 /* Resources */,
 				F8F9BF692F67F9CF00831927 /* LifeOSTests */,
 				F8F9BF732F67F9CF00831927 /* LifeOSUITests */,
 				F8F9BF582F67F9CC00831927 /* Products */,
@@ -92,6 +102,50 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F8F9BF922F68009A00831927 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8F9BF932F6800A600831927 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F8F9BF942F6800AE00831927 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8F9BF842F67FFD400831927 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8F9BF952F6800C400831927 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F8F9BF962F6800CC00831927 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		F8F9BF972F6800D200831927 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8F9BF832F67FFD400831927 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +160,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F8F9BF592F67F9CC00831927 /* LifeOS */,
 			);
 			name = LifeOS;
 			packageProductDependencies = (
@@ -212,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F9BF872F67FFD400831927 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F9BF882F67FFD400831927 /* ContentView.swift in Sources */,
+				F8F9BF8A2F67FFD400831927 /* LifeOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
