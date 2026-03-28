@@ -8,48 +8,59 @@
 import SwiftUI
 import SwiftData
 
+enum LifeOSSection: String, CaseIterable, Identifiable {
+    case dashboard = "Dashboard"
+    case finance = "Finance"
+    case subscriptions = "Subscriptions"
+    case inventory = "Inventory"
+    case documents = "Documents"
+    case maintenance = "Maintenance"
+    case settings = "Settings"
+
+    var id: String { rawValue }
+
+    var systemImageName: String {
+        switch self {
+        case .dashboard: return "chart.bar"
+        case .finance: return "wallet.pass"
+        case .subscriptions: return "arrow.triangle.2.circlepath"
+        case .inventory: return "shippingbox"
+        case .documents: return "doc.text"
+        case .maintenance: return "wrench.and.screwdriver"
+        case .settings: return "gear"
+        }
+    }
+}
+
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @State private var selectedSection: LifeOSSection? = .dashboard
 
     var body: some View {
         NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
+            List(LifeOSSection.allCases, selection: $selectedSection) { section in
+                NavigationLink(value: section) {
+                    Label(section.rawValue, systemImage: section.systemImageName)
                 }
             }
+            .navigationTitle("LifeOS")
         } detail: {
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
+            Group {
+                switch selectedSection {
+                case .dashboard, .none:
+                    DashboardView()
+                case .finance:
+                    FinanceView()
+                case .subscriptions:
+                    SubscriptionsView()
+                case .inventory:
+                    InventoryView()
+                case .documents:
+                    DocumentsView()
+                case .maintenance:
+                    MaintenanceView()
+                case .settings:
+                    SettingsView()
+                }
             }
         }
     }
@@ -57,5 +68,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+        .modelContainer(PersistenceController.preview.container)
 }

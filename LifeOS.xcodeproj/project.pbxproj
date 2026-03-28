@@ -10,6 +10,25 @@
 		F8F9BF872F67FFD400831927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F9BF832F67FFD400831927 /* Assets.xcassets */; };
 		F8F9BF882F67FFD400831927 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BF842F67FFD400831927 /* ContentView.swift */; };
 		F8F9BF8A2F67FFD400831927 /* LifeOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BF862F67FFD400831927 /* LifeOSApp.swift */; };
+		F8F9BFA52F68051D00831927 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFA32F68051D00831927 /* Subscription.swift */; };
+		F8F9BFA62F68051D00831927 /* DocumentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFA02F68051D00831927 /* DocumentItem.swift */; };
+		F8F9BFA72F68051D00831927 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFA42F68051D00831927 /* Transaction.swift */; };
+		F8F9BFA82F68051D00831927 /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFA12F68051D00831927 /* InventoryItem.swift */; };
+		F8F9BFA92F68051D00831927 /* MaintenanceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFA22F68051D00831927 /* MaintenanceItem.swift */; };
+		F8F9BFAE2F6807B900831927 /* ItemCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFAB2F6807B900831927 /* ItemCondition.swift */; };
+		F8F9BFAF2F6807B900831927 /* BillingCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFAA2F6807B900831927 /* BillingCycle.swift */; };
+		F8F9BFB02F6807B900831927 /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFAC2F6807B900831927 /* TransactionType.swift */; };
+		F8F9BFB22F680A0000831927 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFB12F680A0000831927 /* PersistenceController.swift */; };
+		F8F9BFB42F680F4000831927 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFB32F680F4000831927 /* DashboardViewModel.swift */; };
+		F8F9BFCA2F680F6700831927 /* MaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFC72F680F6700831927 /* MaintenanceView.swift */; };
+		F8F9BFCB2F680F6700831927 /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFC42F680F6700831927 /* DocumentsView.swift */; };
+		F8F9BFCC2F680F6700831927 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFC32F680F6700831927 /* DashboardView.swift */; };
+		F8F9BFCD2F680F6700831927 /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFC52F680F6700831927 /* FinanceView.swift */; };
+		F8F9BFCE2F680F6700831927 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFC82F680F6700831927 /* SettingsView.swift */; };
+		F8F9BFCF2F680F6700831927 /* SubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFC92F680F6700831927 /* SubscriptionsView.swift */; };
+		F8F9BFD02F680F6700831927 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFC62F680F6700831927 /* InventoryView.swift */; };
+		F8F9BFD22F6811E500831927 /* FinanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFD12F6811E500831927 /* FinanceViewModel.swift */; };
+		F8F9BFD42F6811FA00831927 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9BFD32F6811FA00831927 /* AddTransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,25 @@
 		F8F9BF832F67FFD400831927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8F9BF842F67FFD400831927 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8F9BF862F67FFD400831927 /* LifeOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSApp.swift; sourceTree = "<group>"; };
+		F8F9BFA02F68051D00831927 /* DocumentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentItem.swift; sourceTree = "<group>"; };
+		F8F9BFA12F68051D00831927 /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		F8F9BFA22F68051D00831927 /* MaintenanceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceItem.swift; sourceTree = "<group>"; };
+		F8F9BFA32F68051D00831927 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		F8F9BFA42F68051D00831927 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F8F9BFAA2F6807B900831927 /* BillingCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingCycle.swift; sourceTree = "<group>"; };
+		F8F9BFAB2F6807B900831927 /* ItemCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCondition.swift; sourceTree = "<group>"; };
+		F8F9BFAC2F6807B900831927 /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		F8F9BFB12F680A0000831927 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		F8F9BFB32F680F4000831927 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		F8F9BFC32F680F6700831927 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F8F9BFC42F680F6700831927 /* DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsView.swift; sourceTree = "<group>"; };
+		F8F9BFC52F680F6700831927 /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
+		F8F9BFC62F680F6700831927 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		F8F9BFC72F680F6700831927 /* MaintenanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceView.swift; sourceTree = "<group>"; };
+		F8F9BFC82F680F6700831927 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F8F9BFC92F680F6700831927 /* SubscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsView.swift; sourceTree = "<group>"; };
+		F8F9BFD12F6811E500831927 /* FinanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewModel.swift; sourceTree = "<group>"; };
+		F8F9BFD32F6811FA00831927 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				F8F9BF862F67FFD400831927 /* LifeOSApp.swift */,
+				F8F9BFAD2F6807B900831927 /* Enums */,
 				F8F9BF922F68009A00831927 /* Models */,
 				F8F9BF932F6800A600831927 /* ViewModels */,
 				F8F9BF942F6800AE00831927 /* Views */,
@@ -105,6 +144,11 @@
 		F8F9BF922F68009A00831927 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F8F9BFA02F68051D00831927 /* DocumentItem.swift */,
+				F8F9BFA12F68051D00831927 /* InventoryItem.swift */,
+				F8F9BFA22F68051D00831927 /* MaintenanceItem.swift */,
+				F8F9BFA32F68051D00831927 /* Subscription.swift */,
+				F8F9BFA42F68051D00831927 /* Transaction.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -112,6 +156,8 @@
 		F8F9BF932F6800A600831927 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F8F9BFB32F680F4000831927 /* DashboardViewModel.swift */,
+				F8F9BFD12F6811E500831927 /* FinanceViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -119,7 +165,15 @@
 		F8F9BF942F6800AE00831927 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F8F9BFD32F6811FA00831927 /* AddTransactionView.swift */,
 				F8F9BF842F67FFD400831927 /* ContentView.swift */,
+				F8F9BFC32F680F6700831927 /* DashboardView.swift */,
+				F8F9BFC42F680F6700831927 /* DocumentsView.swift */,
+				F8F9BFC52F680F6700831927 /* FinanceView.swift */,
+				F8F9BFC62F680F6700831927 /* InventoryView.swift */,
+				F8F9BFC72F680F6700831927 /* MaintenanceView.swift */,
+				F8F9BFC82F680F6700831927 /* SettingsView.swift */,
+				F8F9BFC92F680F6700831927 /* SubscriptionsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,6 +188,7 @@
 		F8F9BF962F6800CC00831927 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
+				F8F9BFB12F680A0000831927 /* PersistenceController.swift */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -144,6 +199,16 @@
 				F8F9BF832F67FFD400831927 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8F9BFAD2F6807B900831927 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F8F9BFAA2F6807B900831927 /* BillingCycle.swift */,
+				F8F9BFAB2F6807B900831927 /* ItemCondition.swift */,
+				F8F9BFAC2F6807B900831927 /* TransactionType.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,8 +353,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F9BFD42F6811FA00831927 /* AddTransactionView.swift in Sources */,
 				F8F9BF882F67FFD400831927 /* ContentView.swift in Sources */,
 				F8F9BF8A2F67FFD400831927 /* LifeOSApp.swift in Sources */,
+				F8F9BFAE2F6807B900831927 /* ItemCondition.swift in Sources */,
+				F8F9BFB42F680F4000831927 /* DashboardViewModel.swift in Sources */,
+				F8F9BFAF2F6807B900831927 /* BillingCycle.swift in Sources */,
+				F8F9BFD22F6811E500831927 /* FinanceViewModel.swift in Sources */,
+				F8F9BFB22F680A0000831927 /* PersistenceController.swift in Sources */,
+				F8F9BFB02F6807B900831927 /* TransactionType.swift in Sources */,
+				F8F9BFCA2F680F6700831927 /* MaintenanceView.swift in Sources */,
+				F8F9BFCB2F680F6700831927 /* DocumentsView.swift in Sources */,
+				F8F9BFCC2F680F6700831927 /* DashboardView.swift in Sources */,
+				F8F9BFCD2F680F6700831927 /* FinanceView.swift in Sources */,
+				F8F9BFCE2F680F6700831927 /* SettingsView.swift in Sources */,
+				F8F9BFCF2F680F6700831927 /* SubscriptionsView.swift in Sources */,
+				F8F9BFD02F680F6700831927 /* InventoryView.swift in Sources */,
+				F8F9BFA52F68051D00831927 /* Subscription.swift in Sources */,
+				F8F9BFA62F68051D00831927 /* DocumentItem.swift in Sources */,
+				F8F9BFA72F68051D00831927 /* Transaction.swift in Sources */,
+				F8F9BFA82F68051D00831927 /* InventoryItem.swift in Sources */,
+				F8F9BFA92F68051D00831927 /* MaintenanceItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +543,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,6 +576,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
